@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+ #header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+   // height:100px;
+    //width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    line-height:30px;
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#aside{
+    line-height:30px;
+    background-color:#eeeeee;
+    width:350px;
+    float:right;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+            body {font-family:Arial, Sans-Serif;}
+ 
+            #container {width:700px; margin:0 auto;
+                        color:black;
+                       // font-size: 14px;
+                       
+            }
+ 
+           
+            form label {display:inline-block; width:140px;}
+ 
+           
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+ 
+        </style>
+    </head>
+    <body background='car12.jpg'>
+        <div id="header"><h1>CAR STATUS TRACKING SYSTEM</h1><a href="index.html">
+  <img src="small-button-home.jpg" alt="HTML home" style="width:42px;height:42px;border:0">
+    </a>
+        </div>
+        <div id="container">
+            <form action="csts.jsp">
+                <h1>STATUS OF THE ECU COMPONENTS</h1>
+                <div class="line">
+                    <label for="carid"><b>CAR ID: </b></label><input type="text" id="carid" /></div><br>
+                    <div class="line"><label for="slotno"><b>SLOT NO:</b> </label><input type="text" id="slotno" /></div><br>
+                    <div class="line"><label for="ft"><b>AIR FLOW RATE:</b> </label><input type="text" id="ft" /></div><br>
+                <div class="line"><label for="throttle">
+                        <b>  OPEN THROTTLE:</b> </label><input type="text" id="throttle" /></div><br>
+                        <div class="line"><label for="resistance"><b>RESISTANCE</b>
+    </label><input type="text" id="resistance" /></div><br>
+    <div class="line"><label for="hsf"><b>HIGH SPEED FUEL</b> </label><input type="text" id="hsf" /></div><br>
+    <div class="line"><label for="ambtemp"><b>AMBIENT TEMPERATURE</b></label><input type="text" id="ambtemp" /></div><br>
+                    <div class="line"><label for="cattemp"><b>CATALYTIC TEMPERATURE</b></label><input type="text" id="cattemp" /></div><br>
+                                    <div class="line"><label for="normaltemp"><b>NORMAL TEMPERATURE</b></label><input type="text" id="normaltemp" /></div><br>
+                                                    <div class="line"><label for="bp"><b>BAROMETRIC PRESSURE</b></label><input type="text" id="bp" /></div><br>
+    <div class="line sign up"><input type="submit" value="SUBMIT" /></div><br>
+ 
+                <p>Note: Please make sure your details are correct before submit.</p>
+            </form>
+        </div>
+       <!-- <div id="aside"><p>An engine control unit (ECU) is a type of electronic control unit that controls a series of actuators on an internal combustion engine to ensure optimal engine performance.<br></p></div>
+        <!--<div id="nav">An engine control unit (ECU) is a type of electronic control unit that controls a series of actuators on an internal combustion engine to ensure optimal engine performance.<br></div>-->
+    </body>
+           
+</html>
